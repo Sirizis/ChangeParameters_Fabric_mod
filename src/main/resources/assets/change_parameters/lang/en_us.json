@@ -1,3 +1,6 @@
 {
-  "item.change_parameters.ruby": "Ruby"
+  "item.change_parameters.ruby": "Ruby",
+  "item.change_parameters.emi": "Emi",
+
+  "itemgroup.ruby": "Ruby Tutorial Group"
 }

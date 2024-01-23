@@ -1,5 +1,6 @@
 package com.retiz.change_parameters;
 
+import com.retiz.change_parameters.item.ModItemGroups;
 import com.retiz.change_parameters.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,5 +15,6 @@ public class ChangeParameters implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }
